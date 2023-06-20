@@ -33,6 +33,7 @@
 		278E5E4B2A4225A900E4514E /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278E5E4A2A4225A900E4514E /* LoginViewViewModel.swift */; };
 		278E5E4D2A4225B000E4514E /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278E5E4C2A4225B000E4514E /* RegisterViewViewModel.swift */; };
 		278E5E4F2A4225BD00E4514E /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278E5E4E2A4225BD00E4514E /* ToDoListItemViewViewModel.swift */; };
+		278E5E512A42294900E4514E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278E5E502A42294900E4514E /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		278E5E4A2A4225A900E4514E /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
 		278E5E4C2A4225B000E4514E /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		278E5E4E2A4225BD00E4514E /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
+		278E5E502A42294900E4514E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 				278E5E382A4224DF00E4514E /* LoginView.swift */,
 				278E5E3A2A4224E700E4514E /* RegisterView.swift */,
 				278E5E3C2A42251700E4514E /* ToDoListItemView.swift */,
+				278E5E502A42294900E4514E /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				278E5E392A4224DF00E4514E /* LoginView.swift in Sources */,
+				278E5E512A42294900E4514E /* HeaderView.swift in Sources */,
 				278E5DFE2A4218AA00E4514E /* MainView.swift in Sources */,
 				278E5E4D2A4225B000E4514E /* RegisterViewViewModel.swift in Sources */,
 				278E5E432A42256C00E4514E /* MainViewViewModel.swift in Sources */,
