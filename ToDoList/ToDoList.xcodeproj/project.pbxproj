@@ -102,10 +102,10 @@
 		278E5DFA2A4218AA00E4514E /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
-				278E5E2C2A421AD200E4514E /* GoogleService-Info.plist */,
-				278E5DFB2A4218AA00E4514E /* ToDoListApp.swift */,
-				278E5DFD2A4218AA00E4514E /* ContentView.swift */,
-				278E5DFF2A4218AB00E4514E /* Assets.xcassets */,
+				278E5E312A421D1500E4514E /* Other */,
+				278E5E302A421D0300E4514E /* Models */,
+				278E5E2F2A421CF400E4514E /* ViewModels */,
+				278E5E2E2A421CED00E4514E /* Views */,
 				278E5E012A4218AB00E4514E /* Preview Content */,
 			);
 			path = ToDoList;
@@ -134,6 +134,38 @@
 				278E5E182A4218AB00E4514E /* ToDoListUITestsLaunchTests.swift */,
 			);
 			path = ToDoListUITests;
+			sourceTree = "<group>";
+		};
+		278E5E2E2A421CED00E4514E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				278E5DFD2A4218AA00E4514E /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		278E5E2F2A421CF400E4514E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		278E5E302A421D0300E4514E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		278E5E312A421D1500E4514E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				278E5DFF2A4218AB00E4514E /* Assets.xcassets */,
+				278E5DFB2A4218AA00E4514E /* ToDoListApp.swift */,
+				278E5E2C2A421AD200E4514E /* GoogleService-Info.plist */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
