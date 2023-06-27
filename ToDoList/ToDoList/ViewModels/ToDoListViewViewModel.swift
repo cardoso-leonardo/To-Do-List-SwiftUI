@@ -10,5 +10,7 @@ import Foundation
 // ViewModel for list of items view
 // Primary teb
 class ToDoListViewViewModel: ObservableObject {
+    @Published var showingNewItemView = false
+    
     init() {}
 }
