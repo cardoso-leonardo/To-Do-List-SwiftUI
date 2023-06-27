@@ -23,7 +23,7 @@ struct ToDoListView: View {
                 List(items) { item in
                     ToDoListItemView(item: item)
                         .swipeActions {
-                            Button("Delete"){
+                            Button("Delete", role: .destructive){
                                 viewModel.delete(id: item.id)
                             }
                             .tint(.red)

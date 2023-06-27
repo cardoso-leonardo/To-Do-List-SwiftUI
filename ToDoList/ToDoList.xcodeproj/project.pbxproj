@@ -35,6 +35,7 @@
 		278E5E4F2A4225BD00E4514E /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278E5E4E2A4225BD00E4514E /* ToDoListItemViewViewModel.swift */; };
 		278E5E512A42294900E4514E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278E5E502A42294900E4514E /* HeaderView.swift */; };
 		27E0CB302A4A5EE00026780F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E0CB2F2A4A5EE00026780F /* Extensions.swift */; };
+		27E0CB322A4A817D0026780F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E0CB312A4A817D0026780F /* Launch Screen.storyboard */; };
 		27F927682A429C8400EFA47E /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F927672A429C8400EFA47E /* TLButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +85,7 @@
 		278E5E4E2A4225BD00E4514E /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
 		278E5E502A42294900E4514E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		27E0CB2F2A4A5EE00026780F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		27E0CB312A4A817D0026780F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		27F927672A429C8400EFA47E /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -218,6 +220,7 @@
 				278E5DFB2A4218AA00E4514E /* ToDoListApp.swift */,
 				278E5E2C2A421AD200E4514E /* GoogleService-Info.plist */,
 				27E0CB2F2A4A5EE00026780F /* Extensions.swift */,
+				27E0CB312A4A817D0026780F /* Launch Screen.storyboard */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 			files = (
 				278E5E032A4218AB00E4514E /* Preview Assets.xcassets in Resources */,
 				278E5E002A4218AB00E4514E /* Assets.xcassets in Resources */,
+				27E0CB322A4A817D0026780F /* Launch Screen.storyboard in Resources */,
 				278E5E2D2A421AD200E4514E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
